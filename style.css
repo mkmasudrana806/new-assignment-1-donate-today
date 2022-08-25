@@ -5,9 +5,8 @@ body{
 }
 
 
-/* below is the top section  */
-
-.top-banner-content{
+/* ------------------------ here is the top section -----------------------*/
+.top-banner{
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(images/donation3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,16 +14,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     margin-bottom: 50px;
-    text-align: center;
 }
-.top-banner-content h1{
+.top-banner h1{
     font-size: 60px;
 }
+.top-banner-content{
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+/* ----------------------- donate today section  -----------------------*/
 
-
-/* donate today section */
 .doante-today-section{
     display: flex;
    justify-content: center;
@@ -47,7 +48,6 @@ body{
     padding: 10px;
     text-align: center;
 }
-
 #donate-select{
     border: 2px solid red;
     border-radius: 5px;
@@ -60,12 +60,20 @@ body{
     margin-left: 40%;
 }
 
+.donate-button{
+    background-color: tomato;
+    padding: 15px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+    margin-left: 40%;
+}
 .donate-input{
     margin-bottom: 50px;
 }
+/* ----------------------- our donate plan section  -----------------------*/
 
-
-/* our donate plan section*/
 .our-donate-plan,.get-update{
     display: flex;
     justify-content: center;
@@ -77,8 +85,8 @@ body{
     width:50%;
 }
 
+/* ----------------------- three donate plan boxes  -----------------------*/
 
-/* below i am writing three donate plan boxes properties */
 .donate-plan-three-boxes{
     display: flex;
     margin-left: 8%;
@@ -104,7 +112,8 @@ body{
     background-color: rgba(250, 238, 200, 0.993);
 }
 
-/* here is the contribution section */
+/* ----------------------- contrubution section  -----------------------*/
+
 .contribute-section{
     display: flex;
     margin-bottom: 50px;
@@ -123,6 +132,9 @@ body{
 .contribute-heading,#donate-heading{
     font-size: 50px;
 }
+
+/* ----------------------- all button using this propertiey  -----------------------*/
+
 .button{
     background-color: tomato;
     padding: 15px 15px;
@@ -132,6 +144,7 @@ body{
     font-size:18px;
 }
 
+/* ----------------------- get update section  -----------------------*/
 /* the property of get update section similar as our donate plan. */
 
 /* here is the subscribe section */
@@ -163,7 +176,7 @@ body{
 }
 
 
-/* join our community section */
+/* ----------------------- join our community section. bonus section  -----------------------*/
 
 .our-community{
     margin-bottom: 80px;
@@ -187,7 +200,9 @@ body{
    
 }
 
-/* here i am writting footer section properties */
+
+/* ----------------------- this is the footer section  -----------------------*/
+
 .footer-section{
     background-color:black;
     height: 150px;
