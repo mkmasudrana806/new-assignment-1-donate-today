@@ -147,7 +147,7 @@ body{
     margin: 0 auto;
     margin-bottom: 100px;
 }
-.subscribe input,button{
+.subscribe input,.subscribe button{
     border: 0;
     outline: 0;
     padding: 15px 15px;
@@ -162,16 +162,47 @@ body{
     background-color: tomato;
 }
 
+
+/* join our community section */
+
+.our-community{
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.member-info{
+    background-color: rgb(255, 171, 171);
+    width: 60%;
+    padding: 10px 0px 30px 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.member-info input,.member-info button{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    border:0;
+    outline: 0;
+   
+}
+
 /* here i am writting footer section properties */
 .footer-section{
     background-color:black;
-    height: 200px;
-    color: rgb(255, 148, 148);
+    height: 150px;
 }
 
 .footer-section footer{
     display: flex;
     justify-content:center;
     align-items: center;
-    font-size: 20px;
+}
+footer h1{
+    font-size: 30px;
+    color: #ff9494;
+    text-align: center;
+}
+footer p{
+    color: white;
 }
