@@ -7,7 +7,7 @@ body{
 
 /* ------------------------ here is the top section -----------------------*/
 .top-banner{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url(images/donation3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)),url(images/donation3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
